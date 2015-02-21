@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Predicting Calories Burned Based On Steps Taken</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Predicting Calories Burned Based On Steps Taken">
+  <meta name="author" content="LHR">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Predicting Calories Burned Based On Steps Taken</h1>
+    <h2>An App Created for Developing Data Products</h2>
+    <p>LHR<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>What is the purpose of this App?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Do you ever wonder how many calories you burn in a day?<br>
+Do you think about how many you might burn during a run?<br>
+This app can help you answer these questions!</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>What does this App do?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This app will help you estimate the number of calories that you burn based on
+the number of steps that you take. You can monitor your steps for an hour, day,
+week or any amount of time. The only thing you need to know is your step count!</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>How does this App work?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This app takes the input of step count and converts it into an estimate of
+calories burned. The formula is rather simple. For an average person it is 
+estimated that it takes 2,000 steps to walk a mile and a mile burns an estimated
+100 calories.</p>
+
+<p>Here is an example of the code:</p>
+
+<pre><code class="r">stepCount &lt;- 10000
+caloriesBurned &lt;- stepCount/2000*100
+caloriesBurned
+</code></pre>
+
+<pre><code>## [1] 500
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>How can you use this App?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>You can use this app by going to <a href="https://lhr2.shinyapps.io/DevelopingDataProducts/">this link</a>.
+All you have to do is input your step count and click on the &quot;Submit&quot; button!
+Give it a try!</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='What is the purpose of this App?'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='What does this App do?'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='How does this App work?'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='How can you use this App?'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
